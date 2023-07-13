@@ -54,7 +54,7 @@ public class StudentRepository {
             students = teacherToStudentMap.get(teacher);
 
 
-        if(students.contains(student)) return;
+//        if(students.contains(student)) return;
         students.add(student);
         teacherToStudentMap.put(teacher,students);
         return;
